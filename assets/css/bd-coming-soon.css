@@ -11,9 +11,11 @@ body {
       padding-bottom: 110px; } }
 
 .navbar-brand {
-  margin-right: 0; }
-  .navbar-brand img {
-    height: 21px; }
+  font-size: 25px;
+  font-weight: bold; }
+  @media (max-width: 767px) {
+    .navbar-brand {
+      font-size: 20px; } }
 
 .navbar-dark {
   padding-top: 35px;
@@ -70,9 +72,5 @@ p {
     text-decoration: none;
     background-color: #000000;
     color: #ffffff; }
-
-img {
-  -webkit-filter: brightness(70%);
-          filter: brightness(70%); }
 
 /*# sourceMappingURL=bd-coming-soon.css.map */

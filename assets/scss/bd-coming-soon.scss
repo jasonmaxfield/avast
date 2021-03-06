@@ -12,12 +12,14 @@ body {
     }
 }
 .navbar-brand {
-    margin-right: 0;
+    font-size: 25px;
+    font-weight: bold;
 
-    img {
-        height: 21px;
+    @media (max-width: 767px) {
+        font-size: 20px; 
     }
 }
+
 .navbar-dark {
     padding-top: 35px;
     padding-bottom: 35px;
@@ -87,8 +89,4 @@ p {
             color: #ffffff;
         }
     }
-}
-
-img {
-    filter: brightness(70%);
 }
